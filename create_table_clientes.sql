@@ -1,4 +1,4 @@
-USE jarvis;
+use jarvis;
 
 CREATE TABLE CLIENTES (
 ID INT AUTO_INCREMENT AUTO_INCREMENT KEY,
@@ -6,4 +6,6 @@ NOMBRE varchar(25),
 PAIS varchar(25),
 CATEGORIA varchar(30),
 NUM_VENTA int
-)
+);
+
+select * from CLIENTES;
